@@ -57,6 +57,7 @@ class DoublyLinkedList {
   }
   private traverseToIndex(index: number) {
     let i = 0;
+    
     let currentNode: NodeObj = this.head;
     while (i < index) {
       currentNode = currentNode.next;
