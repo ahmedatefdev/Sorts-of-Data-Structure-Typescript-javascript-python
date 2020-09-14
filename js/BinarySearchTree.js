@@ -5,6 +5,7 @@ var TreeNode = /** @class */ (function () {
         this.value = value;
     }
     return TreeNode;
+    
 }());
 var BinarySearchTree = /** @class */ (function () {
     function BinarySearchTree() {
@@ -17,6 +18,7 @@ var BinarySearchTree = /** @class */ (function () {
             // loop to fined the parent with null in the desire value
             // if value small go left if high gor right
             // insert the value to the parent
+
             var currentNode = this.root;
             var parent_1 = null;
             while (currentNode !== null) {
