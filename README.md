@@ -1,2 +1,2 @@
-# all-sort-of-DataStructre
-**Here is a lot of data structure Written by JavaScript, Typescript and python**
+# all-sort-of-Data Structure
+**here many data structures Written by JavaScript, Typescript and python**
