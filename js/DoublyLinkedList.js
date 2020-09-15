@@ -5,6 +5,7 @@ var DoublyLinkedList = /** @class */ (function () {
         this.length = 1;
     }
     DoublyLinkedList.prototype.append = function (value) {
+        
         var newNode = new NodeObj(null, this.tail, value);
         this.tail.next = newNode;
         this.tail = newNode;
