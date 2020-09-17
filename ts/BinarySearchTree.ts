@@ -11,6 +11,7 @@ class TreeNode {
 
 class BinarySearchTree {
   root: TreeNode;
+  
   constructor() {
     this.root = null;
   }
